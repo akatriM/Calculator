@@ -46,7 +46,7 @@ public class Calculator extends Validator {
     }
 
     public int substraction() {
-        if ( b >= a) {
+        if ( b >= a && isRoman) {
                 throw new RuntimeException();
         }
         return a - b;
